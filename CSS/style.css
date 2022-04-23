@@ -1,0 +1,64 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 15px auto;
+  max-width: 800px;
+  max-height: 800px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.button {
+  display: block;
+  margin: 0 auto;
+  background: #d934bb;
+  background-image: -webkit-linear-gradient(top, #d934bb, #662bb8);
+  background-image: -moz-linear-gradient(top, #d934bb, #662bb8);
+  background-image: -ms-linear-gradient(top, #d934bb, #662bb8);
+  background-image: -o-linear-gradient(top, #d934bb, #662bb8);
+  background-image: linear-gradient(to bottom, #d934bb, #662bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #fda1ff;
+  background-image: -webkit-linear-gradient(top, #fda1ff, #bb34d9);
+  background-image: -moz-linear-gradient(top, #fda1ff, #bb34d9);
+  background-image: -ms-linear-gradient(top, #fda1ff, #bb34d9);
+  background-image: -o-linear-gradient(top, #fda1ff, #bb34d9);
+  background-image: linear-gradient(to bottom, #fda1ff, #bb34d9);
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(154,74,123,1) 15%, rgba(142,95,154,0.03963583724505426) 46%, rgba(0,212,255,1) 100%);
+}
+
+h1, h3, button {
+  display: flex;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace;
+}
